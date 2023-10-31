@@ -21,4 +21,10 @@ from app_intro import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/',views.index),
+    path('hello/', views.hello),
+    path('lotto/', views.lotto),
+    path('greeting/<name>/', views.greeting),
+    path('cube/<num>/', views.cube),
+    path('posts/', views.posts),
+
 ]
