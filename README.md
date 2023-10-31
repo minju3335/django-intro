@@ -31,7 +31,7 @@ pip install django
 
 5. 서버 실행 확인 (종료 'Ctrl+c')
 ```
-python manago.py runserver
+python manage.py runserver
 ```
 
 6. 앱생성
